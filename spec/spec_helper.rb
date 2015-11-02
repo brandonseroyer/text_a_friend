@@ -16,11 +16,11 @@
 # users commonly want.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
-require 'webmock/rspec'
-WebMock.disable_net_connect!(allow_localhost: true)
-
 require 'simplecov'
 SimpleCov.start
+
+require 'webmock/rspec'
+WebMock.disable_net_connect!(allow_localhost: true)
 
 require 'vcr'
 VCR.configure do |c|

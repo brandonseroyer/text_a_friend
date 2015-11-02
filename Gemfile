@@ -27,6 +27,7 @@ group :test, :development do
   gem 'launchy'
   gem 'pry'
   gem 'dotenv-rails'
+  gem 'hirb'
 end
 
 group :test do

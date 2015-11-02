@@ -12,6 +12,12 @@ class MessagesController < ApplicationController
 
   def create
     @message = Message.new(message_params)
+    if message_params[:to].empty?
+      Contact.all.each do |contact|
+        @message.contacts.push(contact)
+      end
+    end
+
     if @message.save
       flash[:notice] = 'Message successfully sent!'
       respond_to do |format|
@@ -19,12 +25,12 @@ class MessagesController < ApplicationController
         format.js
       end
     else
-      redirect :new
+      render :new
     end
   end
 
   private
   def message_params
-    params.require(:message).permit(:body, :to, :from)
+    params.require(:message).permit(:body, :from, :to)
   end
 end

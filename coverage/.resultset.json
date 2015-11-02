@@ -1,14 +1,12 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/texting/spec/models/message_spec.rb": [
+      "/Users/Guest/texting/spec/models/contact_spec.rb": [
         1,
         null,
         1,
-        1,
-        1,
-        1,
-        null,
+        2,
+        2,
         null
       ],
       "/Users/Guest/texting/spec/rails_helper.rb": [
@@ -513,6 +511,7 @@
         1,
         1,
         1,
+        1,
         null,
         null
       ],
@@ -528,27 +527,61 @@
         1,
         null
       ],
+      "/Users/Guest/texting/app/models/contact.rb": [
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/Guest/texting/spec/models/message_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/Guest/texting/app/models/message.rb": [
         1,
         1,
-        null,
         1,
         null,
         1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         null,
         1,
+        null,
+        2,
+        2,
         1,
+        null,
         1,
-        1,
+        null,
+        null,
+        2,
+        2,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        2,
+        2,
+        2,
+        null,
         null,
         null,
         null
@@ -557,10 +590,10 @@
         1,
         null,
         1,
-        1,
+        null,
         null
       ]
     },
-    "timestamp": 1446492988
+    "timestamp": 1446503889
   }
 }
