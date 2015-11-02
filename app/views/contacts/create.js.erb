@@ -1,2 +1,3 @@
 $('#new-contact-link').show()
 $('#new-contact-form').html('')
+$('#contact-list').append('<%= j render "listing", contact: @contact %>')

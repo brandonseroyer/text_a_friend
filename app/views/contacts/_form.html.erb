@@ -1,4 +1,4 @@
-<%= form_for @contact, html: { multipart: true }, remote: true do |f| %>
+<%= form_for [@user, @contact], html: { multipart: true }, remote: true do |f| %>
 
 <div class='form-group'>
   <%= f.label :name %>

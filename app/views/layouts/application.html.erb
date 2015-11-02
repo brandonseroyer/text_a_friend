@@ -18,7 +18,9 @@
           <span class="icon-bar"></span>
         </button>
         <b><%= link_to "Text-a-Friend", root_path, class: "navbar-brand" %></b>
-        <b><%= link_to "My Contacts", contacts_path, class: "navbar-brand" %></b>
+        <% if current_user %>
+          <b><%= link_to "My Contacts", user_contacts_path(current_user), class: "navbar-brand" %></b>
+        <% end %>
       </div>
       <ul class="nav navbar-nav navbar-right">
 

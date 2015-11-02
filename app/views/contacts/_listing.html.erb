@@ -1,0 +1,7 @@
+<li>
+  <%= link_to contact.name, user_contact_path(@user, contact) %> |
+  <%= link_to "Edit", edit_user_contact_path(@user, contact) %> |
+  <%= link_to "Delete", user_contact_path(@user, contact),
+  :data => {:confirm => "Are you sure?",
+    :method => "delete"} %>
+</li>

@@ -7,6 +7,7 @@
         1,
         2,
         2,
+        2,
         null
       ],
       "/Users/Guest/texting/spec/rails_helper.rb": [
@@ -521,6 +522,8 @@
         null,
         1,
         null,
+        null,
+        1,
         null
       ],
       "/Users/Guest/texting/app/helpers/application_helper.rb": [
@@ -528,6 +531,7 @@
         null
       ],
       "/Users/Guest/texting/app/models/contact.rb": [
+        1,
         1,
         1,
         1,
@@ -590,10 +594,10 @@
         1,
         null,
         1,
-        null,
+        2,
         null
       ]
     },
-    "timestamp": 1446503889
+    "timestamp": 1446504883
   }
 }
