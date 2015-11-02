@@ -11,8 +11,8 @@ gem 'devise'
 gem 'bootstrap-sass'
 gem "font-awesome-rails"
 gem 'paperclip'
-gem 'rest_client'
-gem 'dotenv-rails'
+gem 'rest-client'
+
 
 group :development do
   gem 'letter_opener'
@@ -26,6 +26,7 @@ group :test, :development do
   gem 'rspec-rails'
   gem 'launchy'
   gem 'pry'
+  gem 'dotenv-rails'
 end
 
 group :test do

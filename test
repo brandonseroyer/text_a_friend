@@ -1,0 +1,26 @@
+RestClient::Request.new(
+    :method => :post,
+    :url => 'https://api.twilio.com/2010-04-01/Accounts/ACd589858564c4968701d5f4d42ecd669d/Messages.json',
+    :user => 'ACd589858564c4968701d5f4d42ecd669d',
+    :password => '515dc2313222513e7a8eb0da9206479c',
+    :payload => { :Body => 'Hello world!',
+                  :To => '+15038062572',
+                  :From => '+15038502083' }
+  ).execute
+
+  RestClient::Request.execute(
+      :method => :post,
+      :url => 'https://api.twilio.com/2010-04-01/Accounts/ACd589858564c4968701d5f4d42ecd669d/Messages.json',
+      :user => 'ACd589858564c4968701d5f4d42ecd669d',
+      :password => '515dc2313222513e7a8eb0da9206479c',
+      :payload => { :Body => 'Hello world!',
+                    :To => '+15038062572',
+                    :From => '+15038502083' })
+
+
+RestClient.post(
+  'https://ACd589858564c4968701d5f4d42ecd669d:515dc2313222513e7a8eb0da9206479c@api.twilio.com/2010-04-01/Accounts/ACd589858564c4968701d5f4d42ecd669d/Messages.json',
+  :Body => 'Hello world!',
+  :To => '5038629187',
+  :From => '5039463641'
+)
